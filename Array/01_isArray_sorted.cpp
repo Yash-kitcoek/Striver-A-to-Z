@@ -29,4 +29,6 @@ int main() {
     int n = arr.size();
 
     cout << isSorted(arr, n);
+
+    return 0;
 }
