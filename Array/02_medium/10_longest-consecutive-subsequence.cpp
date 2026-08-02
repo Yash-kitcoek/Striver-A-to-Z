@@ -10,7 +10,7 @@ int longestConseSeq(vector<int> &nums) {
     int longest = 0;
     
 
-    for(int num : nums) {
+    for(int num : st) {
         if(st.find(num-1) == st.end()) {
             int curr = num;
             int count = 1;
