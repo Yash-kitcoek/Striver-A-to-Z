@@ -41,6 +41,8 @@ int main() {
     vector<int> arr = {3, 5, 8, 15, 19};
     int target = 9;
 
+    // same of upper Bound as we change the condition to arr[mid] > target not arr[mid] >= target
+    
     cout << lower_bound(arr, target);
 
     return 0;
