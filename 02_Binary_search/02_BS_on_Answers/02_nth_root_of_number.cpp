@@ -21,6 +21,9 @@ using namespace std;
 // Optimal
 
 int nth_root(int n, int m) {
+
+    if(m == 0) return 0;
+    
     int low = 1;
     int high = m;
 
