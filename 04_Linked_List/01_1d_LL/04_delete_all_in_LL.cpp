@@ -33,7 +33,7 @@ void printLL(Node* head) {
 
     cout << "NULL";
 
-}
+};
 
 int main() {
 
