@@ -34,7 +34,7 @@ Node* odd_even(Node* head) {
   return head;
 }
 
-Node* printLL(Node* head) {
+void printLL(Node* head) {
   while(head != nullptr) {
     cout << head->data <<"->";
     head = head->next;
@@ -59,6 +59,5 @@ int main() {
   cout << "After odd even sorting : " << endl;
 
   printLL(head);
-;
   return 0;
 }
